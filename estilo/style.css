@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'PassionOne';
-    src: url(/desafios/ex012/fonts/PassionOne-Regular.ttf) format('truetype');
+    src: url('../fonts/PassionOne-Regular.ttf') format('truetype');
 }
 
 
@@ -80,13 +80,13 @@ section.imagem{
 }
 
 #imagem1{
-    background-image: url('/desafios/ex012/imagens/img1.jpeg');
+    background-image: url('../imagens/img1.jpeg');
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #imagem2{
-    background-image: url('/desafios/ex012/imagens/img2.jpeg');
+    background-image: url('../imagens/img2.jpeg');
     background-position: center;
     background-repeat: no-repeat;
  
