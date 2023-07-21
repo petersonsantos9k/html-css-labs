@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formularios</title>
+</head>
+<body>
+    <header id="pai">
+        <h1>Estilizando Formulario</h1>
+    </header>
+    
+    <main>
+        <form action="pag002.html" target="_blank" method="post" autocomplete="on">
+            <div id="form">
+                <fieldset class="box1">
+                    <legend><b>Detalhes do contato</b></legend>
+        
+                        <p>
+                            <label for="inome" class="grl">Nome:</label>
+                            <input type="text" name="nome" id="inome" class="geral" required autocomplete="name" placeholder="nome">
+                        </p>
+                        <p>
+                            <label for="iemeil" class="grl">Email:</label>
+                            <input type="email" name="email" id="iemeil" class="geral" required autocomplete="email" placeholder="@gmail.com">
+                        </p>
+                        <p>
+                            <label for="itel" class="grl">Contato:</label>
+                            <input type="tel" name="tel" id="itel" class="geral" required autocomplete="tel" placeholder="(xx)xxxxx-xxxx" pattern="^\(\d{2}\)\d{4,5}-[0-9]{4}$\" min="8" maxlength="13" minlength="8" max="13">
+                        </p>
+                </fieldset>
+                <fieldset class="box2">
+                    <legend><b>Comentarios</b></legend>
+                    <p>
+                        <label for="imsg">Mensagem:</label><br>
+                        <textarea name="msg " id="imsg" cols="35" rows="10"  placeholder="Opcional:"></textarea>
+                    </p>
+                </fieldset>
+                <fieldset class="box3">
+                    <legend><b>Lembrar de mim</b></legend>
+                    <input type="radio" name="ldm" id="sim" required> <label for="sim">Sim</label><br>
+                    <input type="radio" name="ldm" id="nao" required  > <label for="nao" >Nao</label><br><br>
+                    <a href="pag002.html" target="_blank"><input type="submit" name="enviar" id="enviar" value="enviar" class="enviar"></a>
+                </fieldset>
+               
+            </div>
+        </form>
+        
+        
+    </main>
+   
+</body>
+</html>
