@@ -23,9 +23,9 @@
     gap: 24px;
     list-style: none;}
   .footer__div-empresa ul li a,.footer__div-servicos ul li a,.footer__div-contato ul li a {
-    text-decoration:none;color: var(--gray)}
+    text-decoration:none;color: var(--gray) ; transition: .3s; padding: 3px;}
   .footer__div-empresa ul li a:hover,.footer__div-servicos ul li a:hover,.footer__div-contato ul li a:hover{
-    color: var(--coral);}
+    color: var(--coral);transition: .3s;}
   .footer__div-contato ul li a {
     display: flex;align-items: center;gap: 5px;}
   .footer__div-contato img {
@@ -39,7 +39,10 @@
   .copyright__container a.geral,p{
     color: var(--gray);
     cursor: pointer;
-    margin: 3px;}
+    margin: 3px; transition: .2s;}
+    .copyright__container a.geral:hover{
+      color: black; transition: .2s;
+    }
   .copyright__container div {
       display: flex;
       gap: 20px;}
